@@ -32,7 +32,7 @@ This project implements a traffic light control system with person detection usi
 
 ## File Structure
 
-project//n
+project  
 │
 ├── main.py # The main script for the traffic light control and person detection system
 ├── Seven Segment.ttf # The font used for displaying the countdown
