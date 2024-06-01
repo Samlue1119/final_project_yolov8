@@ -16,20 +16,6 @@ This project implements a traffic light control system with person detection usi
 - PIL (Pillow)
 - Ultralytics YOLOv8
 
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone [https://github.com/yourusername/yourproject.git](https://github.com/Samlue1119/final_project_yolov8.git)
-    ```
-
-2. Install the required packages:
-    ```sh
-    pip install ultralytics Pillow
-    ```
-
-3. Ensure you have the YOLOv8 model and the necessary image files in the specified paths.
-
 ## File Structure
 
 project  
