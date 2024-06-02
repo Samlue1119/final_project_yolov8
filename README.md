@@ -50,8 +50,11 @@ project
 3. The GUI will open displaying the initial state with a traffic light and a button. Click the button to predict the number of persons in the image.
 
 4. If the person count exceeds 5, the system will:
-   - Change the green light duration to 6 seconds.
+   - Change the green light duration to max(6, (person_count - 3) * 0.2 + 5) seconds, capped at 10 seconds.  
    - Show alert images.
+     
+5.Ensure you have the best.pt file (trained YOLOv8 model weights) in the yolov8/runs/detect/train2/weights/ directory.  
+If not, you can train your own model or download pre-trained weights from the Ultralytics YOLOv8 repository.  
 
 ## Code Explanation
 
