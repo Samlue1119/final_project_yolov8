@@ -62,10 +62,10 @@ If not, you can train your own model or download pre-trained weights from the Ul
 
 - `predict(i)`: Loads and displays the image for person detection.
 - `get_person()`: Returns the detected number of persons as a string.
-- `get_second(state, green_duration=3)`: Returns the countdown time based on the traffic light state.
+- `get_second(state, green_duration)`: Returns the countdown time based on the traffic light state.
 - `add()`: Disables the button and starts the countdown.
 - `show_page(frame)`: Raises the specified frame to the top of the window.
-- `update_image_with_countdown(i, state, green_duration=3)`: Updates the traffic light image with a countdown timer.
+- `update_image_with_countdown(i, state, green_duration)`: Updates the traffic light image with a countdown timer.
 - `alert_sys()`: Shows alert images if the person count exceeds 5 and changes the green light duration.
 - `show_alert_image(repetitions)`: Alternates between two alert images for a flashing effect.
 
@@ -79,4 +79,4 @@ If not, you can train your own model or download pre-trained weights from the Ul
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Taiwan License - License Owner @01057050andrea @Samlue1119 @90w09 @Bryan9103.
