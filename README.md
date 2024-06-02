@@ -16,28 +16,6 @@ This project implements a traffic light control system with person detection usi
 - PIL (Pillow)
 - Ultralytics YOLOv8
 
-## File Structure
-
-project  
-│  
-├── main.py # The main script for the traffic light control and person detection system  
-├── Seven Segment.ttf # The font used for displaying the countdown  
-├── yolov8/  
-│ ├── runs/  
-│ │ ├── detect/  
-│ │ │ ├── predict1/  
-│ │ │ │ └── malu1.jpg # Example image for person detection  
-│ │ │ └── train2/  
-│ │ │ └── weights/  
-│ │ │ └── best.pt # Trained YOLOv8 model weights  
-│ └── photo/  
-│ ├── button.jpg # Button image for triggering person detection  
-│ ├── rd light_1.png # Red light image  
-│ ├── rd light_2.png # Green light image  
-│ ├── y light_1.png # Yellow alert light image (state 1)  
-│ ├── y light_2.png # Yellow alert light image (state 2)  
-└── README.md # This README file  
-
 ## Usage
 
 1. Navigate to the project directory.
