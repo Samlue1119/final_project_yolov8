@@ -79,4 +79,4 @@ If not, you can train your own model or download pre-trained weights from the Ul
 
 ## License
 
-This project is licensed under the Taiwan License - License Owner @01057050andrea, @Samlue1119, @90w09, @Bryan9103.
+This project is licensed under the Taiwan License - License Owner [@01057050andrea](https://github.com/01057050andrea), @Samlue1119, @90w09, @Bryan9103.
